@@ -14,8 +14,7 @@ To find some motivation, I thought it could be a good idea to do something relat
 The problem with this game is that, there are many cheaters. Most of the Discord servers related to this game, I am in, have like a channel dedicated for people to post screenshots of profiles that are suspicious.
 The profile gives some statistics about the player, like the number of raids played, or the number of players killed. Here it's an example on how my profile in 0.14 wipe looks like:
 
-
-
+![manuelarte profile](/assets/images/toastedsherpa/profile.png)
 
 
 I thought it could be fun to make a Discord bot that parses that image to extract player's information, in order to check if there is like a way to "identify" patterns in those profiles.
@@ -34,6 +33,7 @@ For that we are going to use [OpenCV](https://opencv.org/), to manipulate the im
 The name is always in the same position, at the bottom of the player's image. So we can crop that part to make it easier for the OCR.
 Tesseract has problems to identify characters in a black background, so in order to facilitate that, we are going to make the image black and white, and invert the colours.
 
+![profile names](/assets/images/toastedsherpa/parse_name.png)
 
 This is the code used:
 
@@ -51,6 +51,7 @@ def parse_name(image) -> str:
 
 With these changes, Tesseract is able to guess the name properly.
 
+![profile levels](/assets/images/toastedsherpa/parse_level.png)
 
 Parsing The Level
 Same principle to parse the level, but in this case, we are going to tell Tesseract that it should find only numbers in the parsed image.
