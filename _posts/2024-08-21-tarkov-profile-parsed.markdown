@@ -16,7 +16,6 @@ The profile gives some statistics about the player, like the number of raids pla
 
 ![manuelarte profile](/assets/images/toastedsherpa/profile.png)
 
-
 I thought it could be fun to make a Discord bot that parses that image to extract player's information, in order to check if there is like a way to "identify" patterns in those profiles.
 
 # 👷Implementation
@@ -25,8 +24,6 @@ So, basically the profile picture has always the same format. On the left side y
 We are going to focus on parsing the left side of the screenshot.
 
 For that we are going to use [OpenCV](https://opencv.org/), to manipulate the image to being able to extract data from it, and [Tesseract](https://github.com/tesseract-ocr/tesseract) (and open-source OCR), to convert the manipulated image to text.
-
-
 
 
 # Parsing The Name
@@ -58,13 +55,14 @@ Same principle to parse the level, but in this case, we are going to tell Tesser
 
 
 # Parsing Extra Info
+
 TODO
 
 # Technologies/Frameworks Used:
 
 + 🐍 Python
-+ 🤖 DiscordPy
-+ 🖼️ OpenCV
-+ 👁️ Tesseract
++ 🤖 [DiscordPy](https://discordpy.readthedocs.io/en/stable/)
++ 🖼️ [OpenCV](https://opencv.org/)
++ 👁️ [Tesseract](https://github.com/tesseract-ocr/tesseract)
 
 If you are interested in learning more about this, feel free to contact me. I have a python playground where you can try it out.
