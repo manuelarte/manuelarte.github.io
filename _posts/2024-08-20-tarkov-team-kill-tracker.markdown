@@ -35,6 +35,7 @@ The flow is the following:
 + Requests to ChatGPT a Roast to the user.
 + Replies the message to the author plus the achievements achieved with that team-kill.
 
+```
 {% plantuml %}
 @startuml
 
@@ -64,6 +65,7 @@ DB --> [Backend]
 
 @enduml
 {% endplantuml %}
+```
 
 # Technologies/Frameworks Used:
 
