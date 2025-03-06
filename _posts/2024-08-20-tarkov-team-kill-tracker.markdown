@@ -36,36 +36,6 @@ The flow is the following:
 + Replies the message to the author plus the achievements achieved with that team-kill.
 
 
-[comment]{% plantuml %}
-[comment]@startuml
-
-[comment]skinparam actorStyle awesome
-[comment]node {
-[comment]actor User
-[comment]component [Discord]
-[comment]}
-[comment]
-[comment]node Bot {
-[comment]component [Backend]
-[comment]database DB
-[comment]}
-[comment]
-[comment]node {
-[comment][ChatGPT]
-[comment]}
-[comment]
-[comment]User --> [Discord]: User Writes TeamKill Command
-[comment][Discord] --> [Backend]: Discord send TeamKill Command to bot
-[comment][Backend] --> DB: Stores the team kill
-[comment]DB --> [Backend]
-[comment][Backend] --> [ChatGPT]
-[comment][ChatGPT] --> [Backend]: Roast output
-[comment][Backend] --> [Discord]: Command Reply
-[comment][Discord] --> User: Roast Message
-[comment]
-[comment]@enduml
-[comment]{% endplantuml %}
-
 # Technologies/Frameworks Used:
 
 Here is a list of some of the libraries used for this project:
