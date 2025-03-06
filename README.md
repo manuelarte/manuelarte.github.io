@@ -1,1 +1,0 @@
-# manuelarte.github.io

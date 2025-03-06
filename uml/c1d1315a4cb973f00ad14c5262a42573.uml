@@ -1,0 +1,31 @@
+@startuml
+
+@startuml
+
+skinparam actorStyle awesome
+node {
+actor User
+component [Discord]
+}
+
+node Bot {
+component [Backend]
+database DB
+}
+
+node {
+[ChatGPT]
+}
+
+User --> [Discord]: User Writes TeamKill Command
+[Discord] --> [Backend]: Discord send TeamKill Command to bot
+[Backend] --> DB: Stores the team kill
+DB --> [Backend]
+[Backend] --> [ChatGPT]
+[ChatGPT] --> [Backend]: Roast output
+[Backend] --> [Discord]: Command Reply
+[Discord] --> User: Roast Message
+
+@enduml
+
+@enduml
