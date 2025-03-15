@@ -2,7 +2,7 @@
 My portfolio using [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
 
 > [NOTE!]
-> Based on ..
+> Based on https://github.com/devidevio/astro-developer-portfolio
 
 ## Deployed
 Check out: [manuelarte.github.io](https://manuelarte.github.io)
@@ -15,16 +15,13 @@ Check out: [manuelarte.github.io](https://manuelarte.github.io)
 ## Getting Started
 
 ```sh
-# 1. Clone the repository
-git clone https://github.com/devidevio/astro-developer-portfolio .
-
-# 2. Install dependencies
+# 1. Install dependencies
 npm install
 
-# 3. Run the development server
+# 2. Run the development server
 npm run dev
 
-# 4. Build for production
+# 3. Build for production
 npm run build
 
 # Deploy the contents of the `./dist` folder wherever you like.
@@ -45,9 +42,6 @@ Edit the **Frontmatter** variables in these files:
 - `src/components/ContentProjects.astro` – Projects/portfolio section content.
 - `src/components/ContentAbout.astro` – About section content.
 
-### Profile Picture
-- Replace `/src/assets/profile.png` with your own image.
-
 ### Logo & OpenGraph Image
 - Update these files:
   - `/public/img/logo.svg` (your logo)
@@ -58,6 +52,3 @@ Need a free OpenGraph image?
 
 ### Sitemap & Robots.txt
 - Adjust `/public/robots.txt` to match your domain.
-
-## ⭐ Contributing
-Feel free to fork, customize, and contribute to this project. If you find it useful, leaving a star would be greatly appreciated.
