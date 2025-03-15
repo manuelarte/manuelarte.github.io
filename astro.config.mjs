@@ -5,6 +5,7 @@ import compress from 'astro-compress';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
+    site: 'https://manuelarte.github.io',
     output: 'static',
     trailingSlash: 'always',
 
