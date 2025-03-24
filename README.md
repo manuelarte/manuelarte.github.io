@@ -1,7 +1,7 @@
 # Manuel Doncel Martos Portfolio
 My portfolio using [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
 
-> [NOTE!]
+> [!NOTE]
 > Based on https://github.com/devidevio/astro-developer-portfolio
 
 ## Deployed
