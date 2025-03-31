@@ -3180,10 +3180,10 @@ svgo@3.3.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
-swetrix@^3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/swetrix/-/swetrix-3.5.4.tgz#7ec93a4236b260335c13ac04b16a97a354f873c8"
-  integrity sha512-HWzIxc5fVdfVtPPdQdlkmhrHDZhC8zGkSXXHQ8wrxmiY5IMAZ0fIK2H/fEMPnbZiLn28fbS8Olk5NuBGvvE+XA==
+swetrix@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/swetrix/-/swetrix-3.6.1.tgz#a014998c294982beb265f8d6d6142a76821c6c87"
+  integrity sha512-Vz+X7hJqVdldz+nmkiEWb5IOsQMQ8s3yALguuGT+mt/Ii65Q+m2Haf1jW5IFVnS3PUCTteomzfrVfnD35Eod9w==
 
 tailwindcss@^3.4.17:
   version "3.4.17"
