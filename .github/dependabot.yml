@@ -5,6 +5,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "tailwindcss"
     groups:
       all-deps:
         patterns:
