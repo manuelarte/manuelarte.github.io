@@ -2,20 +2,21 @@
 import { Code } from 'astro:components';
 
 const code = `type Developer struct {
-	name      string
-	skills    []string
-	interests []string
+	Name      string
+	Skills    []string
+	Interests []string
 }
 
 // [Developer] profile
 var Me = Developer{
-	name: "Manuel Doncel Martos",
-	skills: []string{
+	Name: "Manuel Doncel Martos",
+	Skills: []string{
 		"Java", "Go", "Python", "Sprint Boot",
 		"Kubernetes", "Docker", "Terraform",
 	},
-	interests: []string{
+	Interests: []string{
 		"Open Source",
+		"Domain design",
 		"Security",
 		"Football",
 	},
