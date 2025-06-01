@@ -2,7 +2,7 @@
 import SocialIcon from './SocialIcon.astro';
 
 interface Social {
-    icon: 'github' | 'linkedIn' | 'twitter' | 'email' | 'xing';
+    icon: 'github' | 'linkedIn' | 'x' | 'email';
     link: string;
     title?: string;
 }
@@ -12,9 +12,9 @@ const socials: Social[] = [{
     link: 'https://github.com/manuelarte',
     title: 'View GitHub Profile'
 }, {
-    icon: 'twitter',
+    icon: 'x',
     link: 'https://x.com/manueldoncel',
-    title: 'View Twitter Profile'
+    title: 'View X Profile'
 }, {
     icon: 'linkedIn',
     link: 'https://www.linkedin.com/in/manueldoncelmartos',

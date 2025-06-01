@@ -11,3 +11,6 @@ updates:
       all-deps:
         patterns:
           - "*"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
