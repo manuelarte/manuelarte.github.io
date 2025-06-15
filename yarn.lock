@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@astrojs/compiler@^2.12.1":
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.12.1.tgz#5939988a6961b222f89562863b6b3dff00fa9ae9"
-  integrity sha512-WDSyVIiz7sNcJcCJxJFITu6XjfGhJ50Z0auyaWsrM+xb07IlhBLFtQuDkNy0caVHWNcKTM2LISAaHhgkRqGAVg==
+"@astrojs/compiler@^2.12.2":
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.12.2.tgz#5913b6ec7efffebdfb37fae9a50122802ae08c64"
+  integrity sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw==
 
 "@astrojs/internal-helpers@0.6.1":
   version "0.6.1"
@@ -890,12 +890,12 @@ astro-compress@^2.3.8:
     svgo "3.3.2"
     terser "5.39.0"
 
-astro@*, astro@^5.9.1:
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.9.1.tgz#8fa74fadac97f149a15a59ea7e8a74faf5174a2c"
-  integrity sha512-wxoJcTbuDZNFSv6EaL0PAlrp0Wx6VnOAULCXvy0scsV70oWMeUkdxuBxfO54JxO5Qgyvwj9h99y6E0elqOpGtA==
+astro@*, astro@^5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.9.3.tgz#9caed9a387517cac62c922e192c325d3bed28154"
+  integrity sha512-VReZrpUa/3rfeiVvsQ1A2M3ujDPI+pDGIYOMtXPEZwut8tZoEyealXXLjitgCsJ+3dunKGZbg4Eak6i+r0vniw==
   dependencies:
-    "@astrojs/compiler" "^2.12.1"
+    "@astrojs/compiler" "^2.12.2"
     "@astrojs/internal-helpers" "0.6.1"
     "@astrojs/markdown-remark" "6.3.2"
     "@astrojs/telemetry" "3.3.0"
@@ -3059,10 +3059,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-sass@^1.89.0:
-  version "1.89.1"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.89.1.tgz"
-  integrity sha512-eMLLkl+qz7tx/0cJ9wI+w09GQ2zodTkcE/aVfywwdlRcI3EO19xGnbmJwg/JMIm+5MxVJ6outddLZ4Von4E++Q==
+sass@^1.89.2:
+  version "1.89.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.89.2.tgz#a771716aeae774e2b529f72c0ff2dfd46c9de10e"
+  integrity sha512-xCmtksBKd/jdJ9Bt9p7nPKiuqrlBMBuuGkQlkhZjjQk3Ty48lv93k5Dq6OPkKt4XwxDJ7tvlfrTa1MPA9bf+QA==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
