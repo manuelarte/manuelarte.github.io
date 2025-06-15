@@ -57,7 +57,7 @@ Edit the **Frontmatter** variables in these files:
   - `/public/img/logo.svg` (your logo)
   - `/public/img/meta.png` (your OpenGraph image)
 
-Need a free OpenGraph image? Click [here](https://tailwind-generator.com/og-image-generator/generator).
+Need a free OpenGraph image? Check the [og-image-generator website](https://tailwind-generator.com/og-image-generator/generator).
 
 ### Sitemap & Robots.txt
 
