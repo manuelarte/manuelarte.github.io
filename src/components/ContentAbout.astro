@@ -35,23 +35,23 @@ var Me = Developer{
 
     /* Custom styling for code block line numbers */
     pre.astro-code {
-        @apply bg-transparent !important;
+        @reference bg-transparent !important;
     }
 
     pre.astro-code code {
-        @apply block;
+        @reference block;
         counter-reset: step;
         counter-increment: step 0;
     }
 
     pre.astro-code code .line {
-        @apply relative;
+        @reference relative;
     }
 
     pre.astro-code code .line::before {
         content: counter(step);
         counter-increment: step;
-        @apply text-gray-600 pr-2;
+        @reference text-gray-600 pr-2;
     }
 
 </style>

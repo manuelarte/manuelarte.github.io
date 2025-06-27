@@ -1,4 +1,5 @@
 @use "tailwindcss" as *;
+@config "../tailwind.config.js";
 
 * {
     margin: 0;

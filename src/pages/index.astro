@@ -104,37 +104,37 @@ import ContentProjects from '../components/ContentProjects.astro';
 
     /* Hide the radio buttons */
     .tab-radio {
-        @apply absolute opacity-0 pointer-events-none;
+        @reference absolute opacity-0 pointer-events-none;
     }
 
     /* Default state - hide all tab content */
     .tab-content {
-        @apply hidden opacity-0;
+        @reference hidden opacity-0;
         transition: opacity 0.3s ease-in-out;
     }
 
     /* Default state for tab links */
     .tab-link {
-        @apply border-b-2 border-transparent bg-transparent;
+        @reference border-b-2 border-transparent bg-transparent;
         transition: background-color 0.2s ease-in-out;
     }
 
     /* When tab1 is checked, show content1 and highlight its tab */
     #tab1:checked ~ * #content1 {
-        @apply block opacity-100;
+        @reference block opacity-100;
     }
 
     #tab1:checked ~ .flex .tab-link:nth-child(1) {
-        @apply border-b-2 border-b-primary;
+        @reference border-b-2 border-b-primary;
     }
 
     /* When tab2 is checked, show content2 and highlight its tab */
     #tab2:checked ~ * #content2 {
-        @apply block opacity-100;
+        @reference block opacity-100;
     }
 
     #tab2:checked ~ .flex .tab-link:nth-child(2) {
-        @apply border-b-2 border-b-primary;
+        @reference border-b-2 border-b-primary;
     }
 
 </style>
