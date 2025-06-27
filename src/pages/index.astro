@@ -100,7 +100,7 @@ import ContentProjects from '../components/ContentProjects.astro';
 
 </Layout>
 
-<style is:global>
+<style>
 
     /* Hide the radio buttons */
     .tab-radio {
@@ -111,12 +111,6 @@ import ContentProjects from '../components/ContentProjects.astro';
     .tab-content {
         @reference hidden opacity-0;
         transition: opacity 0.3s ease-in-out;
-    }
-
-    /* Default state for tab links */
-    .tab-link {
-        @reference border-b-2 border-transparent bg-transparent;
-        transition: background-color 0.2s ease-in-out;
     }
 
     /* When tab1 is checked, show content1 and highlight its tab */
