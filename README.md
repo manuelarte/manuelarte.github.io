@@ -4,7 +4,7 @@ My portfolio using [Astro][astro] and [TailwindCSS](https://tailwindcss.com/).
 No JavaScript in final build.
 
 > [!NOTE]
-> Based on [astro-developer-portfolio](https://github.com/devidevio/astro-developer-portfolio).
+> Based on [astro-developer-portfolio-template](https://github.com/devidevio/astro-developer-portfolio-template).
 
 ## Deployed
 
