@@ -31,7 +31,7 @@ var Me = Developer{
     wrap={true}
 />
 
-<style>
+<style is:global>
 
     /* Custom styling for code block line numbers */
     pre.astro-code {
@@ -39,13 +39,13 @@ var Me = Developer{
     }
 
     pre.astro-code code {
-        @reference block;
+        @apply block;
         counter-reset: step;
         counter-increment: step 0;
     }
 
     pre.astro-code code .line {
-        @reference relative;
+        @apply relative;
     }
 
     pre.astro-code code .line::before {
