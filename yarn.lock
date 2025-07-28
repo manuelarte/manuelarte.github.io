@@ -890,10 +890,10 @@ astro-compress@^2.3.8:
     svgo "3.3.2"
     terser "5.39.0"
 
-astro@*, astro@^5.12.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.12.0.tgz#9ba4508eddfeb62cf626d65e5f86024f57d7cf7c"
-  integrity sha512-Oov5JsMFHuUmuO+Nx6plfv3nQNK1Xl/8CgLvR8lBhZTjYnraxhuPX5COVAzbom+YLgwaDfK7KBd8zOEopRf9mg==
+astro@*, astro@^5.12.3:
+  version "5.12.3"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.12.3.tgz#edb044872ce3978f23d0497d68481a082fae3dad"
+  integrity sha512-fU1hNPMkccm+FuonGsY5DFkC2QyuLCju++8L2ubzBtYBDBf6bmfgmVM7A2dK+Hl+ZJCUNgepsClhBpczj+2LRw==
   dependencies:
     "@astrojs/compiler" "^2.12.2"
     "@astrojs/internal-helpers" "0.6.1"
