@@ -3503,10 +3503,10 @@ svgo@^4.0.0:
     picocolors "^1.1.1"
     sax "^1.4.1"
 
-swetrix@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/swetrix/-/swetrix-3.7.2.tgz#ebce8ed57fad45a243503bb14d896849858b55ba"
-  integrity sha512-NMLwCaZM4eA2qLwrBbZykGKOXJkdCrWbvq5QlkY7vF5mHcU4IuxozR/5PBfgPt+lItDxjNGmpry7FkJFCnHG8A==
+swetrix@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/swetrix/-/swetrix-4.0.0.tgz#7dd91c890f0948ffd854ed7999367b4d120f0fe3"
+  integrity sha512-IfNuvP4SipihlW8TB/wFHtRPRtWuN0fPimS2va8snsLU1MOYkWKM8FmkPqOasZfHjo3J4CcX78zt0fleAcEoig==
 
 tailwindcss@^3.4.17:
   version "3.4.17"
