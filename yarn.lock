@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@astrojs/compiler@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-3.0.1.tgz#25c041906cdf8e101a595bf29023e7b21e137e53"
-  integrity sha512-z97oYbdebO5aoWzuJ/8q5hLK232+17KcLZ7cJ8BCWk6+qNzVxn/gftC0KzMBUTD8WAaBkPpNSQK6PXLnNrZ0CA==
+"@astrojs/compiler@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-4.0.0.tgz#81eb5dbb1d0664f94fccdc0669c0c203ef75227a"
+  integrity sha512-eouss7G8ygdZqHuke033VMcVw5HTZUu+PXd/h06DGDUg/jt5btPYPqh66ENWw/mU78rBrf/oeC4oqoBwMtDMNA==
 
 "@astrojs/internal-helpers@0.9.0":
   version "0.9.0"
@@ -969,12 +969,12 @@ astro-compress@^2.4.1:
     svgo "4.0.1"
     terser "5.46.1"
 
-astro@*, astro@6.1.9:
-  version "6.1.9"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-6.1.9.tgz#c39b41e41a1bbe64f6a89d68d9ca2a226aa2ce15"
-  integrity sha512-NsAHzMzpznB281g2aM5qnBt2QjfH6ttKiZ3hSZw52If8JJ+62kbnBKbyKhR2glQcJLl7Jfe4GSl0DihFZ36rRQ==
+astro@*, astro@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-6.2.1.tgz#2f22e48bb1031db8004fb960d5f7518380ea4d70"
+  integrity sha512-3g1sYNly+QAkuO5ErNEQBYvsxorNDSCUNIeStBs+kcXGchvKQl1Q9EuDNOvSg010XLlHJFLVFZs9LV18Jjp4Hg==
   dependencies:
-    "@astrojs/compiler" "^3.0.1"
+    "@astrojs/compiler" "^4.0.0"
     "@astrojs/internal-helpers" "0.9.0"
     "@astrojs/markdown-remark" "7.1.1"
     "@astrojs/telemetry" "3.3.1"
