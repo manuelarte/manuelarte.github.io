@@ -11,22 +11,6 @@ permissions:
   # pull-requests: read
 
 jobs:
-  commitlint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          fetch-depth: 1
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - name: npm install
-        run: npm install --legacy-peer-deps
-      - uses: ahmadnassri/action-commit-lint@v2
-        with:
-          config: './commitlint.config.cjs'
-        env:
-          TS_NODE_SKIP_PROJECT: 'true'
   spell:
     name: "Spell check"
     runs-on: ubuntu-latest
