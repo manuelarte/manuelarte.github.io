@@ -25,6 +25,8 @@ jobs:
       - uses: ahmadnassri/action-commit-lint@v2
         with:
           config: './commitlint.config.js'
+        env:
+          TS_NODE_SKIP_PROJECT: 'true'
   spell:
     name: "Spell check"
     runs-on: ubuntu-latest
