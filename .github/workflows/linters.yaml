@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: ahmadnassri/action-commit-lint@v2
         with:
-          config: 'commitlint.config.js'
+          config: './commitlint.config.js'
   spell:
     name: "Spell check"
     runs-on: ubuntu-latest
