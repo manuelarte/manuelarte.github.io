@@ -24,7 +24,7 @@ jobs:
         run: npm install --legacy-peer-deps
       - uses: ahmadnassri/action-commit-lint@v2
         with:
-          config: './commitlint.config.js'
+          config: './commitlint.config.cjs'
         env:
           TS_NODE_SKIP_PROJECT: 'true'
   spell:
