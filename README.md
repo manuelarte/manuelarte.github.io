@@ -39,7 +39,7 @@ npm run build
 
 ### Theme Customization
 
-- Adjust the primary theme color in `tailwind.config.js`, to fit your branding.
+- Adjust the primary theme color in `src/styles/global.css` (`@theme`), to fit your branding.
 
 ### Updating Content & SEO
 

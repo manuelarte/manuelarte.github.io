@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
 
-import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
 import sitemap from '@astrojs/sitemap';
 
@@ -12,8 +12,11 @@ export default defineConfig({
     // Single page, no prefetch needed
     prefetch: false,
 
+    vite: {
+        plugins: [tailwindcss()],
+    },
+
     integrations: [
-        tailwind(),
         sitemap(),
         compress({
             CSS: true,
