@@ -1232,10 +1232,10 @@ astro-compress@^2.4.2:
     svgo "4.0.2"
     terser "5.49.2"
 
-astro@*, astro@7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-7.3.2.tgz#2274a94ca43acb37014f1fc50517ae3cce55a1a4"
-  integrity sha512-ysTcdpGP61XZpHoMRYC/CK19DQ94qkBvzXMtXEo0gEqPNkmOU/Tv++CtWmzaI4nF2Ck8RXFdiWvdlTWa2oOr9w==
+astro@*, astro@7.3.3:
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-7.3.3.tgz#5804c5ee9d95e1ccf737bdfb0cf8fb66fabefffe"
+  integrity sha512-NF08hk3edFkVmr9avf9HW/rQyf6NrpbVDyYj2cVN3JfijDhfJYh1ivWVTY5PUd5+rRZn/Vtu4iaeyNlP0Iv6mg==
   dependencies:
     "@astrojs/compiler-rs" "^0.4.0"
     "@astrojs/internal-helpers" "0.11.0"
@@ -1256,7 +1256,7 @@ astro@*, astro@7.3.2:
     dset "^3.1.4"
     es-module-lexer "^2.0.0"
     esbuild "^0.28.0"
-    find-proc "0.1.0"
+    find-proc "0.2.0"
     flattie "^1.1.1"
     fontace "~0.4.1"
     get-tsconfig "5.0.0-beta.4"
@@ -1275,16 +1275,16 @@ astro@*, astro@7.3.2:
     package-manager-detector "^1.6.0"
     piccolore "^0.1.3"
     picomatch "^4.0.4"
-    semver "^7.7.4"
     shiki "^4.0.2"
     smol-toml "^1.6.0"
-    svgo "^4.0.1"
+    svgo "^4.0.2"
     tinyclip "^0.1.12"
     tinyexec "^1.0.4"
     tinyglobby "^0.2.15"
     ultrahtml "^1.6.0"
     unifont "~0.7.5"
     unstorage "^1.17.5"
+    verkit "^0.4.0"
     vite "^8.0.13"
     vitefu "^1.1.2"
     xxhash-wasm "^1.1.0"
@@ -1430,6 +1430,17 @@ css-select@^5.1.0:
     domutils "^3.0.1"
     nth-check "^2.0.1"
 
+css-select@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/css-select/-/css-select-6.0.0.tgz#7e63f09881ad118084091048ed543786dad96644"
+  integrity sha512-rZZVSLle8v0+EY8QAkDWrKhpgt6SA5OtHsgBnsj6ZaLb5dmDVOWUDtQitd9ydxxvEjhewNudS6eTVU7uOyzvXw==
+  dependencies:
+    boolbase "^1.0.0"
+    css-what "^7.0.0"
+    domhandler "^5.0.3"
+    domutils "^3.2.2"
+    nth-check "^2.1.1"
+
 css-tree@^3.0.1, css-tree@^3.1.0:
   version "3.2.1"
   resolved "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz"
@@ -1450,6 +1461,11 @@ css-what@^6.1.0:
   version "6.2.2"
   resolved "https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz"
   integrity sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==
+
+css-what@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-7.0.0.tgz#5796fbebd43571d73c60ba0dd7a6e75dd0d22fe4"
+  integrity sha512-wD5oz5xibMOPHzy13CyGmogB3phdvcDaB5t0W/Nr5Z2O/agcB8YwOz6e2Lsp10pNDzBoDO9nVa3RGs/2BttpHQ==
 
 csso@5.0.5, csso@^5.0.5:
   version "5.0.5"
@@ -1521,7 +1537,7 @@ domhandler@^5.0.2, domhandler@^5.0.3:
   dependencies:
     domelementtype "^2.3.0"
 
-domutils@^3.0.1:
+domutils@^3.0.1, domutils@^3.2.2:
   version "3.2.2"
   resolved "https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz"
   integrity sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==
@@ -1652,10 +1668,10 @@ fill-range@^7.1.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-find-proc@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/find-proc/-/find-proc-0.1.0.tgz#cd5e722c692213656d9af88887fc04a4a7b18a06"
-  integrity sha512-OaOpEYv2PiQ7SQ5LIrl+deA1XaWcxEjnpM6VuWXTUvn+teIXxeFTLDmu18/zDQpFmHN4o3oDBX+BT0AGwEhemg==
+find-proc@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/find-proc/-/find-proc-0.2.0.tgz#d72ebca251b1fc74c3e661e8956f0067438d340f"
+  integrity sha512-a6h2nTrgB3g5Wrn4au9Ux4kMk7IJtyF6oA8uGn+mk3weLZssUtc1cp6meHIzzuW2o1srrBAxzkmXLbqjRkgB6w==
 
 flattie@^1.1.1:
   version "1.1.1"
@@ -2129,7 +2145,7 @@ normalize-path@^3.0.0:
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nth-check@^2.0.1:
+nth-check@^2.0.1, nth-check@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz"
   integrity sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==
@@ -2391,12 +2407,17 @@ satteri@^0.10.3:
     "@bruits/satteri-win32-arm64-msvc" "0.10.5"
     "@bruits/satteri-win32-x64-msvc" "0.10.5"
 
+sax@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.6.1.tgz#4c23cf608c0b693ab54b4b5888e92cfe977b9843"
+  integrity sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==
+
 sax@^1.4.1, sax@^1.5.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/sax/-/sax-1.6.0.tgz"
   integrity sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==
 
-semver@^7.7.4, semver@^7.8.5:
+semver@^7.8.5:
   version "7.8.5"
   resolved "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz"
   integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
@@ -2536,7 +2557,7 @@ stringify-entities@^4.0.0:
     character-entities-html4 "^2.0.0"
     character-entities-legacy "^3.0.0"
 
-svgo@4.0.2, svgo@^4.0.1:
+svgo@4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/svgo/-/svgo-4.0.2.tgz"
   integrity sha512-ekx94z1rRc5LDi6oSUaeRnYhd0UOJxdtQCL2rF8xpWxD3TPAsISWOrxezqGovqS38GRZOdpDfvQe3ts6F7nsng==
@@ -2548,6 +2569,19 @@ svgo@4.0.2, svgo@^4.0.1:
     csso "^5.0.5"
     picocolors "^1.1.1"
     sax "^1.5.0"
+
+svgo@^4.0.2:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/svgo/-/svgo-4.1.0.tgz#c977eb69640ef232a5e8236a5a327ed8c9d52853"
+  integrity sha512-bkxnTg1kSU0guhIBmibA6UUhrQmPVA1XsQLN+ylCd+UWzbnLkySOcXpyk1mrl05f+pcaCx2eHb+sp6BgMZWX+Q==
+  dependencies:
+    commander "^11.1.0"
+    css-select "^6.0.0"
+    css-tree "^3.0.1"
+    css-what "^7.0.0"
+    csso "^5.0.5"
+    picocolors "^1.1.1"
+    sax "1.6.1"
 
 swetrix@^4.6.1:
   version "4.6.1"
@@ -2724,6 +2758,11 @@ unstorage@^1.17.5:
     node-fetch-native "^1.6.7"
     ofetch "^1.5.1"
     ufo "^1.6.3"
+
+verkit@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/verkit/-/verkit-0.4.1.tgz#f8c00a63516c5ed3fe7dbbc82355c50579c42c61"
+  integrity sha512-mMVzj0TXExtVdlDEq+Mzp0eyOuyznNpFobNM3uAqe3HVm/Ps2c+u17BligMkZjZCA6EiXpoon8iRTer3iu40SQ==
 
 vfile-message@^4.0.0:
   version "4.0.3"
