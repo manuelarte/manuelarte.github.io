@@ -10,9 +10,9 @@
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.3.3",
-        "astro": "7.4.0",
+        "astro": "7.4.2",
         "shiki": "^4.5.0",
-        "swetrix": "^4.7.0",
+        "swetrix": "^4.8.0",
         "tailwindcss": "^4.3.3"
     },
     "devDependencies": {
